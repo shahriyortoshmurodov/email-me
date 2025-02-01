@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahriyordev</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="icon" href="https://t3.ftcdn.net/jpg/01/81/00/34/360_F_181003490_CxW4fQ0H3VypIIsPkFGpMDviO8ysWjOZ.jpg" type="image/png">
+
+    <!-- <link rel="stylesheet" href=""> -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+ 
+    <div class="container">
+        <h1 class="title">Biz bilan bog‘laning</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Ismingiz:</label>
+                <input type="text" id="name" name="name" placeholder="Ismingizni kiriting" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Emailingizni kiriting" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Xabar:</label>
+                <textarea id="message" name="message" placeholder="Xabaringizni kiriting" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Yuborish</button>
+        </form>
+        <div id="status" class="status-message"></div>
+    </div>
+</body>
+</html>
